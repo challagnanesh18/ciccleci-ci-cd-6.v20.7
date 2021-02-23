@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>agnaneshb@gmail.com</contactEmail>
+    <label>circle ci cd</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIDcTCCAlkCFA3nlg8pV9+S6UQoAZj0vg9i8CVOMA0GCSqGSIb3DQEBCwUAMHUxCzAJBgNVBAYTAlVLMRAwDgYDVQQIDAdNaXNzb3JpMQ8wDQYDVQQHDAZrYW5zYW4xDTALBgNVBAoMBE1TSU8xEDAOBgNVBAMMB0duYW5lc2gxIjAgBgkqhkiG9w0BCQEWE2FnbmFuZXNoYkBnbWFpbC5jb20wHhcNMjEwMjIyMTE0ODQyWhcNMjIwMjIyMTE0ODQyWjB1MQswCQYDVQQGEwJVSzEQMA4GA1UECAwHTWlzc29yaTEPMA0GA1UEBwwGa2Fuc2FuMQ0wCwYDVQQKDARNU0lPMRAwDgYDVQQDDAdHbmFuZXNoMSIwIAYJKoZIhvcNAQkBFhNhZ25hbmVzaGJAZ21haWwuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApL0AnAv6gqLCgmFzzOu7tY0tma+xDicsdU+HBjKPYQczs2Yo2UxM9acxT3ROS3b0dbnxaPMwc7bzb05V9mBM5C1dRcesJz8l834rJCvteCBzfG11dEQCm6I9H4+LWP5J9cBnd81HISguUSVjIQm3RHZoMInnja1IrdodVbKw0hiATgqqAaidVv+QLGUsw0ycv1HpGiBi3NEUVpjzu2UfZTxvflmbNAtYdCwCELWDJhZ7KjTdpZhsduwRv7OgiC4AibhSxh9HW2opDPzOYGphSy4OslIw1y/E39n3WytF0jHqHyZiPBd62koYM5aHJonJ+7dAR2ZKpdFdbT5L3SW2rwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCQxfNwc95LJHE7O0OZDQhrz8FOQ7AF9H+Zb8DwTYV9peNbJlfa6xh61lzS3qOt75qVKkdVDhtT6+dqy5eVKkuaZf6G6+kG97oB4QhWVV4d2XFL0PReImk3ygwg7sEeaaeqd39IeaSt9m0ZnozLBjOnj08gc9il0P73nLt1QbaPP/Y+E02VJh2TNDSt2YepWJR6yEyYEkRpWXXQNxfvivMNVPH4ruHYtre1+eT8k1rnUtEEu9R/1OO5QlGD0r0w0vwifhZDf9bM60GncBl0TulqF0NUPggt7ArOugooN9kFgCs/1OvTF4OOGZToMlBEG0rD4utuUJONIwue1zy0cyq8</certificate>
+        <consumerKey>3MVG9fe4g9fhX0E6mxXK3QBNi4K._pNb2_203fACo8p78lLc.yRm2ynWHhlQ9Zp3wXM48XFKY6TdJtHLjx.eR</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>
